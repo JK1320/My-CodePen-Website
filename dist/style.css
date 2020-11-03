@@ -1,0 +1,215 @@
+* {
+  
+  margin:0;
+  padding:0;
+  
+  }
+
+body {
+  
+  background:#eef;
+  family-font:sans-serif;
+  
+}
+
+#header {
+  
+  position: fixed;
+  margin:0;
+  top: 0;
+  background-color:hsl(5, 100%, 65%);
+  width: 100%;
+  height: 50px;
+  padding: 20px 0px;
+  
+}
+
+@media (max-width:500px) {
+  header { flex-wrap: wrap;}
+  
+}
+
+#nav-bar {
+  
+  display:flex;
+  justify-content: space-around;
+  margin-top:10px;
+  margin-left:0px;
+  background:hsl(5, 100%, 90%);
+  padding:10px;
+  
+}
+
+ul {
+  
+  padding:0;
+  list-style:none;
+ 
+}
+
+ul li {
+  float:left;
+ 
+}
+
+ul li a {
+  
+  text-decoration:none;
+  padding: 0 30px;
+  font-weight:600;
+  font-size:20px;
+  
+}
+
+#sec1 {
+  
+  margin-top: 150px;
+ margin-left:30%;
+  padding:50px;
+  font-size:20px;
+}
+
+#div1 {
+  
+  margin-top: 100px;
+  margin-left:200px;
+ 
+}
+
+p {
+  
+  padding:50px;
+}
+
+#header-img {
+  
+  width:100px;
+  
+}
+
+#img-2 {
+  
+  margin-top: 0px;
+  margin-left: 350px;
+  width:100px;
+  border-radius:10px;
+  
+}
+
+#img-2:hover {
+  
+  transform:rotateY(300deg);
+}
+
+#img-3 {
+  
+  margin-top: 0;
+  margin-right: 0;
+  width:100px;
+  height:56px;
+  border-radius:10px;
+  
+}
+
+#img-3:hover {
+ 
+  transform:rotateY(300deg);
+  
+}
+ 
+#img-4 {
+  
+ width:100px;
+ margin:auto;
+ padding:50px;
+animation:animate 15s linear infinite;
+  
+}
+
+@keyframes animate {
+  
+  0% { transform:translate(2400px);
+  }
+  100% { transform:translateX(-100%);}
+  
+}
+
+#vw-20 {
+  
+  justify-content: center;
+  
+}
+
+#video {
+ 
+  width:400px;
+  height:400px;
+  padding:100px;
+  margin-left:30%;
+  border:0;
+  
+}
+
+h3 {
+  
+  color: hsl(5, 100%, 50%);
+  
+}
+
+.nav-link:hover {
+  
+  color:red;
+  
+  }
+
+.container {
+  
+  margin-left:50px;
+  margin-top:50px;
+  width:90%;
+  height:150px;
+  background:url(https://unblast.com/wp-content/uploads/2018/12/Subtle-Light-Tile-Patterns-6-440x330.jpg);
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-around;
+  align-items:center;
+  font-size:20px;
+  color:blue;
+  
+}
+
+.container:hover {
+  
+  color:red;
+  
+}
+
+.item {
+  
+  flex-basis:30%;
+  
+}
+
+.item1 {
+  
+  flex-basis:30%;
+  
+}
+
+.item2 {
+  
+  flex-basis:30%;
+  
+}
+
+#test-drive {
+  
+  padding:40px;
+  font-size:30px;
+}
+
+#test-drive:hover {
+  
+  color:red;
+  
+}
